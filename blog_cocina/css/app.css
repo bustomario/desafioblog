@@ -1,0 +1,50 @@
+body{
+  background-image: url(../img/fondo2.jpg);
+  background-size: cover;
+}
+#contenedor_principal{
+  background: rgba(147,206,222,1);
+  background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(147,206,222,0.5) 0%, rgba(117,189,209,0.5)  41%, rgba(73,165,191,0.5) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(0%, rgba(147,206,222,0.5)), color-stop(41%, rgba(117,189,209,0.5)), color-stop(100%, rgba(73,165,191,0.5)));
+  background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(147,206,222,0.5) 0%, rgba(117,189,209,0.5) 41%, rgba(73,165,191,0.5) 100%);
+  background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(147,206,222,0.5) 0%, rgba(117,189,209,0.5) 41%, rgba(73,165,191,0.5) 100%);
+  background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(147,206,222,0.5) 0%, rgba(117,189,209,0.5) 41%, rgba(73,165,191,0.5) 100%);
+  background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(147,206,222,0.5) 0%, rgba(117,189,209,0.5) 41%, rgba(73,165,191,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+  padding: 10px;
+}
+#receta,#receta_2{
+
+background: rgba(147,206,222,0.91);
+background: -moz-linear-gradient(left, rgba(147,206,222,0.91) 0%, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,0.91)), color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(left, rgba(147,206,222,0.91) 0%, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(left, rgba(147,206,222,0.91) 0%, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(left, rgba(147,206,222,0.91) 0%, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(to right, rgba(147,206,222,0.91) 0%, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+#receta_2{
+  margin-top: 20px;
+}
+a{
+  font-decoration:none;
+  color: black;
+}
+h6{
+  color: #0101DF;
+}
+#sidebar{
+  background: rgba(212,228,239,1);
+  background: -moz-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,1)), color-stop(0%, rgba(134,174,204,1)), color-stop(100%, rgba(134,174,204,1)));
+  background: -webkit-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 100%);
+  background: -o-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 100%);
+  background: -ms-linear-gradient(left, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 100%);
+  background: linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 0%, rgba(134,174,204,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+}
+#favoritos2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
